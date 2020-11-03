@@ -1,0 +1,30 @@
+[user]
+	name = lelandpaul
+	email = lelandpaul@gmail.com
+[core]
+	autocrlf = false
+	editor = /usr/bin/vim
+	excludesfile = /Users/lelandpaul/.gitignore
+[alias]
+	co = checkout
+	ci = commit -m
+	st = status
+	br = branch
+	aa = add .
+	as = !git add . && git status
+	hist = log --pretty=format:'%h %ad | %s%d [%an]' --graph --date=short
+	type = cat-file -t
+	dump = cat-file -p
+	newproj = !git clone ~/.latex_template/
+	branches = branch
+[credential]
+	helper = osxkeychain
+[filter "lfs"]
+	required = true
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
+	process = git-lfs filter-process
+[url "https://github.com/"]
+    insteadOf = gh;
+[init]
+	defaultBranch = main

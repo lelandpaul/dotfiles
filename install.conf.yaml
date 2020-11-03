@@ -1,0 +1,27 @@
+- defaults:
+    link:
+      relink: true
+
+- clean: ['~']
+
+- link:
+    ~/.commonplace: commonplace
+    ~/.gitconfig: gitconfig
+    ~/.gitignore: gitignore
+    ~/.iterm2: iterm2
+    ~/.vim: vim
+    ~/.vimrc: vimrc
+    ~/.vimwiki_tags: vimwiki_tags
+    ~/.zprezto: zprezto
+    ~/.zsh: zsh
+    ~/.zsh_history: zsh_history
+    ~/.zshrc: zshrc
+    ~/.zpreztorc: zpreztorc
+    ~/.zprofile: zprofile
+    ~/.zshenv: zshenv
+    ~/.zlogin: zlogin
+    ~/.zlogout: zlogout
+
+- shell:
+  - git submodule sync --recursive
+  - git submodule update --init --recursive --remote
