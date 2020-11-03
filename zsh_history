@@ -4343,3 +4343,108 @@ git push -u origin main
 : 1604418270:0;git st
 : 1604418276:0;git ci "submodule restore"
 : 1604418278:0;git as
+: 1604418289:0;git ci "eerything else"
+: 1604418308:0;git remote add origin https://github.com/lelandpaul/dotfiles.git\
+git branch -M main\
+git push -u origin main
+: 1604418324:0;cd ..
+: 1604418325:0;ls -la
+: 1604418607:0;ssh 157.230.58.205
+: 1604418655:0;ls .ssh
+: 1604418668:0;cat .ssh/config
+: 1604418680:0;cat .ssh/id_rsa
+: 1604418719:0;cat .ssh/id_rsa.pub
+: 1604418725:0;:q
+: 1604418730:0;ls .ssh
+: 1604418738:0;vim .ssh/config
+: 1604418752:0;ssh 157.230.58.205
+: 1604418854:0;vim .ssh/config
+: 1604418870:0;ssh 134.122.122.199
+: 1604418919:0;ls -la .ssh
+: 1604418931:0;sudo chmod 700 .ssh
+: 1604418940:0;sudo chmod 600 .ssh/*
+: 1604418944:0;ls -la .ssh
+: 1604418950:0;ssh 134.122.122.199
+: 1604419025:0;ssh-keygen
+: 1604419068:0;cp -r .ssh .ssh-bckp
+: 1604419070:0;ls
+: 1604419072:0;ls -la
+: 1604419074:0;cd .ssh-bckp
+: 1604419074:0;ls
+: 1604419076:0;cd ..
+: 1604419077:0;ls
+: 1604419085:0;ssh-keygen
+: 1604419131:0;ls
+: 1604419141:0;mv test* .ssh/
+: 1604419147:0;cat .ssh/test.pub
+: 1604419165:0;ssh --help
+: 1604419217:0;ssh -i id_rsa 134.122.122.199
+: 1604419221:0;ssh ringingroom.com
+: 1604419302:0;ssh 68.183.116.253
+: 1604419317:0;ssh -i test 68.183.116.253
+: 1604419328:0;ssh -i ~/.ssh/test 68.183.116.253
+: 1604419334:0;ssh -i ~/.ssh/test.pub 68.183.116.253
+: 1604419371:0;ssh-copy-id lelandpaul@gmail.com
+: 1604419469:0;ssh-copy-id lelandpaul@157.245.249.126
+: 1604419844:0;ssh root@142.93.0.212
+: 1604419970:0;ssh 142.93.0.212
+: 1604419978:0;ssh root@142.93.0.212
+: 1604420005:0;ls -la 
+: 1604420018:0;ls -la | "ssh"
+: 1604420023:0;ls -la | grep "ssh"
+: 1604420076:0;ssh 142.93.0.212
+: 1604420247:0;ssh root@142.93.0.212
+: 1604420302:0;ssh 142.93.0.212
+: 1604420372:0;cd .dotfiles
+: 1604420375:0;vim install.conf.yaml
+: 1604420414:0;ssh 142.93.0.212
+: 1604420618:0;cd .dotfiles
+: 1604420621:0;git st
+: 1604420636:0;vim .zshrc
+: 1604420664:0;just
+: 1604423902:0;vim
+: 1604423921:0;vim -V
+: 1604432332:0;ls
+: 1604432354:0;cd .dotfiles
+: 1604432368:0;vim install.conf.yaml
+: 1604432383:0;ls -la
+: 1604432394:0;cd ..
+: 1604432396:0;ls -la
+: 1604432438:0;rm commonplace
+: 1604432440:0;ls -la
+: 1604432620:0;vim .zshrc
+: 1604432628:0;vim .zpreztorc
+: 1604432690:0;source .zpreztorc
+: 1604432697:0;cd ~/Desktop/ringingroom
+: 1604432703:0;source rrenv/bin/activate
+: 1604432712:0;vim .zpreztorc
+: 1604432718:0;vim ~/.zpreztorc
+: 1604432791:0;pip install virtualenvwrapper
+: 1604432810:0;pip uninstall virtualenvwrapper
+: 1604432816:0;deactivate
+: 1604432823:0;pip3 install virtualenvwrapper
+: 1604432848:0;which virtualenvwrapper.sh
+: 1604432933:0;prompt -l
+: 1604432980:0;vim ~/.zprezto/modules/prompt/functions/prompt_paradox_setup
+: 1604433189:0;cd ~/Desktop/r
+: 1604433193:0;cd Desktop/ringingroom
+: 1604433200:0;source rrenv/bin/activate
+: 1604433205:0;vim ~/.zprezto/modules/prompt/functions/prompt_paradox_setup
+: 1604433230:0;cd Desktop/ringingroom
+: 1604433232:0;source rrenv/bin/activate
+: 1604433250:0;vim ~/.zshrc
+: 1604433264:0;vim ~/.zpreztorc
+: 1604433375:0;source ~/Desktop/ringingroom/rrenv/bin/activate
+: 1604433475:0;vim ~/.zprezto/modules/prompt/functions/prompt_paradox_setup
+: 1604433570:0;source ~/Desktop/ringingroom/rrenv/bin/activate
+: 1604433600:0;vim ~/.zprezto/modules/prompt/functions/prompt_paradox_setup
+: 1604433651:0;cd ~/Desktop/ringingroom
+: 1604433660:0;source rrenv/bin/activate
+: 1604433671:0;vim ~/.zprezto/modules/prompt/functions/prompt_paradox_setup
+: 1604434142:0;source ~/Desktop/ringingroom/rrenv/bin/activate
+: 1604434261:0;cd ~/Desktop/ringingroom
+: 1604434542:0;source Desktop/ringingroom/rrenv/bin/activate
+: 1604434545:0;cd Desktop/ringingroom
+: 1604434567:0;cd ~/.dotfiles
+: 1604434573:0;deactivate
+: 1604434592:0;git as

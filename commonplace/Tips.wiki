@@ -1,3 +1,2 @@
 Dotfiles setup:
-
-git clone https://github.com/lelandpaul/dotfiles && cd dotfiles && ./install
+    git clone https://github.com/lelandpaul/dotfiles && cd dotfiles && ./install
