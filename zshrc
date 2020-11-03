@@ -31,4 +31,4 @@ export KEYTIMEOUT=1
 alias dots='git -C ~/.dotfiles as; git -C ~/.dotfiles ci "update"; git -C ~/.dotfiles push;'
 
 alias va='source venv/bin/activate'
-alias rra='cd ~/Desktop/ringingroom; va;'
+alias rra='cd ~/Desktop/ringingroom; source rrenv/bin/activate; open app/__init__.py'
