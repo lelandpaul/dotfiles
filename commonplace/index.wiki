@@ -1,0 +1,20 @@
+= To Read =
+
+- [[https://web.stanford.edu/~jurafsky/slp3/|SLP Textbook]]
+- [[https://github.com/gwk/pithy|Python pithy]]
+- [[https://people.cs.umass.edu/~miyyer/cs685/schedule.html|UMass NLP Course]]
+- [[https://github.com/apertium/apertium-keyboard|apertium keyboard]]
+
+
+= Work =
+
+[[Jobs]]
+
+[[Blog Ideas]]
+
+[[Tips]]
+
+= Personal =
+
+[[Therapy]]
+

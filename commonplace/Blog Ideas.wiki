@@ -1,0 +1,18 @@
+= Ringing Room Under the Hood =
+
+    1. Tower models
+    2. The user interface
+    3. Load balancing
+    4. The future
+
+= Tech =
+
+Vim?
+
+My dotfiles?
+
+Vimwiki?
+
+Graphlang, once its closer to done
+
+

@@ -1,0 +1,14 @@
+Today's todos:
+
+- [✓] Update resume
+    - [✓] New template
+    - [✓] Add RC work
+    - [✓] Send for feedback
+- [✓] Contact mock-interview person
+- [✓] Get Vim-Calendar working?
+- [✓] Get Vim-Tagbar working?
+- [✓] Schedule dinner with Ivy
+- [✓] :RR: Finish half-muffled
+
+
+RC sent name to Toast

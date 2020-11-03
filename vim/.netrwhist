@@ -1,0 +1,12 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhistcnt =3
+let g:netrw_dirhist_3='/Users/lelandpaul/lelandpaul.com'
+let g:netrw_dirhist_2='/Users/lelandpaul/Desktop/bookshelf2/migrations'
+let g:netrw_dirhist_1='/Users/lelandpaul/.vim/bundle/vim-svelte-plugin/syntax'
+let g:netrw_dirhist_0='/Users/lelandpaul/Desktop/lelandpaul2020/themes/paperesque/layouts/partials'
+let g:netrw_dirhist_9='/Users/lelandpaul/Desktop/lelandpaul2020/themes/paperesque/assets/js'
+let g:netrw_dirhist_8='/Users/lelandpaul/Desktop/lelandpaul2020/themes/paperesque/assets'
+let g:netrw_dirhist_7='/Users/lelandpaul/Desktop/lelandpaul2020/themes/paperesque'
+let g:netrw_dirhist_6='/Users/lelandpaul/Desktop/lelandpaul2020/themes/paperesque/static'
+let g:netrw_dirhist_5='/Users/lelandpaul/Desktop/lelandpaul2020/content/posts/leaches-kingfisher'
+let g:netrw_dirhist_4='/Users/lelandpaul/Desktop/lelandpaul2020/content/posts'

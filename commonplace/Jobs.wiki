@@ -1,0 +1,16 @@
+= Job Hunt =
+
+- [✓] Update resume
+- [◐] Schedule mock interview
+    - [✓] Contact interviewer
+    - [ ] Fix a date
+- [✓] Send stuff to Toast
+- [ ] Toast HackerRank
+
+== Advice ==
+
+- https://jvns.ca/blog/2013/12/30/questions-im-asking-in-interviews/
+
+== Events ==
+
+[[diary/2020-11-02]] Sent name to Toast; resume update
