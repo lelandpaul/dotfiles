@@ -1,0 +1,9 @@
+*.log
+*.aux
+*.bbl
+*.blg
+.*.sw?
+.*.sw?
+.*~
+.DS_Store
+.cfg
