@@ -4448,3 +4448,30 @@ git push -u origin main
 : 1604434567:0;cd ~/.dotfiles
 : 1604434573:0;deactivate
 : 1604434592:0;git as
+: 1604434601:0;git ci "update prompt for python support"
+: 1604434605:0;git push
+: 1604434746:0;vim justfile
+: 1604434811:0;rm justfile
+: 1604434815:0;git st
+: 1604434820:0;vim zshrc
+: 1604434896:0;git -C
+: 1604434903:0;git --help
+: 1604434911:0;man git
+: 1604434919:0;man git | grep "-C"
+: 1604434929:0;man git
+: 1604434997:0;source ~/.zshrc
+: 1604435010:0;l
+: 1604435011:0;ls
+: 1604435026:0;vim zshrc
+: 1604435029:0;dots
+: 1604435037:0;vim zshrc
+: 1604435054:0;dots
+: 1604435060:0;cd .dotfiles
+: 1604435060:0;ls
+: 1604435062:0;git st
+: 1604435228:0;vim zshrc
+: 1604435254:0;cd Desktop/ringingroom
+: 1604435254:0;va
+: 1604435262:0;vim ~/.zprezto/modules/prompt/functions/prompt_paradox_setup
+: 1604435272:0;vim ~/.zshrc
+: 1604435321:0;dots

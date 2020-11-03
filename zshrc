@@ -25,3 +25,10 @@ fi
 
 # Better vi mode
 export KEYTIMEOUT=1
+
+# Various aliases
+
+alias dots='git -C ~/.dotfiles as; git -C ~/.dotfiles ci "update"; git -C ~/.dotfiles push;'
+
+alias va='source venv/bin/activate'
+alias rra='cd ~/Desktop/ringingroom; va;'
