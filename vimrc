@@ -1,4 +1,6 @@
 set nocompatible
+let mapleader=","
+let maplocalleader = ","
 filetype off
 
 " Set up Vundle
@@ -66,15 +68,14 @@ Plugin 'godlygeek/tabular'
 "SimplyFold
 Plugin 'tmhedberg/SimpylFold'
 
-
 "Emmet
 Plugin 'mattn/emmet-vim'
 
 "VimWiki
 Plugin 'vimwiki/vimwiki'
 let g:vimwiki_listsyms = ' ○◐●✓'
-let g:vimwiki_list = [{'path': '~/commonplace/', 'auto_tags': 1, 'auto_diary_index': 1, 'auto_generate_tags': 1}]
-nmap <Leader>w<Space> <Plug>VimwikiMakeDiaryNote
+let g:vimwiki_list = [{'path': '~/.commonplace/', 'auto_tags': 1, 'auto_diary_index': 1, 'auto_generate_tags': 1}]
+nmap <leader>wa <plug>VimwikiMakeDiaryNote
 
 "Tagbar
 Plugin 'preservim/tagbar'
@@ -164,8 +165,6 @@ nmap <D-0> g^
 
 
 " Remappings
-let mapleader=","
-let maplocalleader = ","
 nnoremap Y y$
 " LaTeX > dvipdfm compile
 " nnoremap <leader>cp :!pdflatex %<cr>

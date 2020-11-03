@@ -1,1 +1,2 @@
 - [ ] :RR: Write blog-post
+- [✓] Do the Toast assessment
