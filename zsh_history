@@ -4519,3 +4519,88 @@ git push -u origin main
 : 1604589609:0;git as "vim-abolish as submodule"
 : 1604589617:0;git st
 : 1604589624:0;git as
+: 1604589632:0;git ci "vim-abolish as submodule"
+: 1604589634:0;git push
+: 1604591113:0;git config --global init.templatedir '~/.dotfiles/git_template'
+: 1604591195:0;mkdir -p .dotfiles/git_template/hooks
+: 1604591202:0;cd .dotfiles/git_template
+: 1604591206:0;vim hooks/ctags
+: 1604591246:0;cd ~/Desktop/graphlang
+: 1604591272:0;cd ../ringingroom
+: 1604591276:0;git ls-files
+: 1604591327:0;git ls-files | ctags --tag-relative -L -f"$$.tags" --languages=javascript,python
+: 1604591334:0;ls
+: 1604591351:0;cat tags
+: 1604591398:0;rm tags
+: 1604591433:0;vim ctags-test
+: 1604591439:0;./ctags-test
+: 1604591452:0;chmod +x ctags-test
+: 1604591473:0;./ctags-test
+: 1604591476:0;ls
+: 1604591479:0;cat tags
+: 1604591491:0;ctags --help
+: 1604591533:0;rm tags
+: 1604591535:0;ls
+: 1604591539:0;rm ctags-test
+: 1604591541:0;git st
+: 1604591607:0;vim
+: 1604591761:0;echo "#> /dev/null 2>&1 &"
+: 1604591768:0;echo '#> /dev/null 2>&1 &'
+: 1604591784:0;echo '#!bin/sh\n.git/hooks/ctags> /dev/null 2>&1 &'
+: 1604591813:0;cd ~/Desktop
+: 1604591821:0;echo "hi" > 1.txt 2.txt 3.txt
+: 1604591822:0;ls
+: 1604591826:0;rm 1.txt
+: 1604591851:0;echo "hi" | tee 1.txt 2.txt
+: 1604591852:0;ls
+: 1604591854:0;cat 1.txt
+: 1604591856:0;cat 2.txt
+: 1604591859:0;rm 1.txt 2.txt
+: 1604591860:0;ls
+: 1604591915:0;echo '#!bin/sh\n.git/hooks/ctags> /dev/null 2>&1 &' | tee hooks/post-commit hooks/post-merge hooks/post-checkout
+: 1604591918:0;ls hooks
+: 1604591934:0;vim hooks/post-rewrite
+: 1604591972:0;chmod +x hooks/*
+: 1604591974:0;ls hooks
+: 1604591990:0;cd ..
+: 1604591993:0;vim gitignore
+: 1604592012:0;cd graphlang
+: 1604592015:0;git init
+: 1604592024:0;ls -la
+: 1604592032:0;ls .git/hooks
+: 1604592038:0;cat tags
+: 1604592042:0;rm tags
+: 1604592047:0;git as
+: 1604592057:0;git reset
+: 1604592059:0;vim gitignore
+: 1604592071:0;git as
+: 1604592075:0;vim gitignore
+: 1604592108:0;git reset
+: 1604592109:0;git as
+: 1604592113:0;git ci "init"
+: 1604592116:0;cat .tags
+: 1604592134:0;ls
+: 1604592139:0;ls -la
+: 1604592183:0;cat .git/hooks/post-
+: 1604592187:0;cat .git/hooks/post-checkout
+: 1604592212:0;vim .git/hooks/post-commit
+: 1604592220:0;git as
+: 1604592228:0;touch test.txt
+: 1604592229:0;git as
+: 1604592233:0;git ci "testing hooks"
+: 1604592270:0;.git/hooks/post-commit
+: 1604592283:0;vim .git/hooks/*
+: 1604592297:0;/bin/sh
+: 1604592399:0;.git/hooks/post-commit
+: 1604592411:0;vim .git/hooks/*
+: 1604592434:0;.git/hooks/post-commit
+: 1604592440:0;vim .git/hooks/post-c
+: 1604592444:0;vim .git/hooks/post-commit
+: 1604592450:0;rm test.txt
+: 1604592451:0;git as
+: 1604592458:0;git ci "testing hooks again"
+: 1604592462:0;cat .tags
+: 1604592469:0;vim graph.py
+: 1604592486:0;ls
+: 1604592508:0;git as
+: 1604592510:0;dots

@@ -28,3 +28,4 @@
     insteadOf = gh;
 [init]
 	defaultBranch = main
+	templatedir = ~/.dotfiles/git_template
