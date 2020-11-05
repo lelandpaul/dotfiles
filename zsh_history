@@ -4481,3 +4481,29 @@ git push -u origin main
 : 1604435368:0;vim ~/.zshrc
 : 1604435385:0;rra
 : 1604435393:0;dots
+: 1604509664:0;rra
+: 1604509738:0;ssh ringingroom.com
+: 1604509771:0;ssh na.ringingroom.com
+: 1604509817:0;ssh sg.ringingroom.com
+: 1604509856:0;ssh sliggo.ringingroom.com
+: 1604509896:0;ssh dev.ringingroom.com
+: 1604524680:0;ping ringingroom.com
+: 1604524717:0;ping rr1.ringingroom.com
+: 1604524732:0;ping rr2.ringingroom.com
+: 1604524749:0;ping rr3.ringingroom.com
+: 1604525416:0;ssh ringingroom.com
+: 1604586521:0;ls -la
+: 1604586578:0;ls .vim
+: 1604586581:0;ls .vim/bundle
+: 1604587304:0;ctags --version
+: 1604587342:0;cd ~/Desktop/graphlang
+: 1604587346:0;ctags *.py
+: 1604587349:0;vim tags
+: 1604588374:0;git config --global init.templatedir '~/.git_template'
+: 1604588387:0;mkdir -p ~/.git_template/hooks
+: 1604588412:0;mkdir ~/.git_template/hooks/ctags
+: 1604588504:0;rm ~/.git_template/hooks/ctags
+: 1604588510:0;rmdir ~/.git_template/hooks/ctags
+: 1604588530:0;git config
+: 1604588537:0;vim ~/.dotfiles/gitconfig
+: 1604589442:0;dots

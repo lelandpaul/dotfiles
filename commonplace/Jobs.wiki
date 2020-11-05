@@ -1,11 +1,11 @@
 = Job Hunt =
 
 - [✓] Update resume
-- [◐] Schedule mock interview
+- [✓] Schedule mock interview
     - [✓] Contact interviewer
-    - [ ] Fix a date
+    - [✓] Fix a date
 - [✓] Send stuff to Toast
-- [ ] Toast HackerRank
+- [✓] Toast HackerRank
 
 == Advice ==
 
@@ -13,4 +13,5 @@
 
 == Events ==
 
+[[diary/2020-11-04]] Received email re: initial interview
 [[diary/2020-11-02]] Sent name to Toast; resume update
