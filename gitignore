@@ -7,3 +7,8 @@
 .*~
 .DS_Store
 .cfg
+tags
+.tags
+venv/
+.ropeproject/
+__pycache__

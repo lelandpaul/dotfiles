@@ -86,6 +86,11 @@ nmap <leader>wa <plug>VimwikiMakeDiaryNote
 Plugin 'preservim/tagbar'
 nmap <F8> :TagbarToggle<CR>
 
+" other tags
+set tags+=tags
+set tags+=.tags
+set tags+=../tags
+
 "Searching
 Plugin 'kien/ctrlp.vim'
 nnoremap <silent> go :CtrlP<CR>
