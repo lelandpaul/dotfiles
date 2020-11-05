@@ -1,6 +1,7 @@
 set nocompatible
 let mapleader=","
 let maplocalleader = ","
+noremap \ ,
 filetype off
 
 " Set up Vundle
@@ -29,6 +30,7 @@ nnoremap m d
 xnoremap m d
 nnoremap mm dd
 nnoremap M D
+nnoremap gm m
 Plugin 'svermeulen/vim-yoink'
 let g:yoinkIncludeDeleteOperations=1
 nmap <c-n> <plug>(YoinkPostPasteSwapBack)
@@ -61,6 +63,9 @@ Plugin 'machakann/vim-sandwich'
 
 "Unimpaired
 Plugin 'tpope/vim-unimpaired'
+
+"Abolish
+Plugin 'tpope/vim-abolish'
 
 "Tabular
 Plugin 'godlygeek/tabular'
@@ -97,6 +102,7 @@ let g:ctrlp_abbrev = {
 " END PLUGINS
 call vundle#end()
 filetype plugin indent on
+runtime macros/matchit.vim
 
 syntax on
 set encoding=utf-8
@@ -130,10 +136,12 @@ set undofile
 set modelines=0
 set ignorecase
 set smartcase
+set infercase
 set gdefault
 set incsearch
 set showmatch
 set hlsearch
+set history=200
 
 
 " Tabs
@@ -221,6 +229,19 @@ nnoremap <leader>vv :e ~/.vimrc<cr>
 nnoremap <leader>vs :source ~/.vimrc<cr>
 " Open help in vertical split
 cnoreabbrev H vert h
+" Better sub-repeat
+nnoremap & :&&<CR>
+xnoremap & :&&<CR>
+
+" VisualStar
+xnoremap * :<C-u>call <SID>VSetSearch('/')<CR>/<C-R>=@/<CR><CR> 
+xnoremap # :<C-u>call <SID>VSetSearch('?')<CR>?<C-R>=@/<CR><CR>
+function! s:VSetSearch(cmdtype)
+    let temp = @s
+    norm! gv"sy
+    let @/ = '\V' . substitute(escape(@s, a:cmdtype.'\'), '\n', '\\n', 'g')
+    let @s = temp
+endfunction
 
 
 " Change cursor shape between insert and normal mode in iTerm2.app
