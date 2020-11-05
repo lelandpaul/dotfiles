@@ -4507,3 +4507,15 @@ git push -u origin main
 : 1604588530:0;git config
 : 1604588537:0;vim ~/.dotfiles/gitconfig
 : 1604589442:0;dots
+: 1604589457:0;cd ~/.dotfiles
+: 1604589494:0;git submodule add https://github.com/tpope/vim-abolish vim/bundle/vim-abolish
+: 1604589503:0;git rm vim/bundle/vim-abolish
+: 1604589518:0;vim .gitmodules
+: 1604589536:0;git rm vim/bundle/vim-abolish/*
+: 1604589541:0;git st
+: 1604589585:0;git rm --cached vim/bundle/vim-abolish
+: 1604589595:0;git submodule add https://github.com/tpope/vim-abolish vim/bundle/vim-abolish
+: 1604589597:0;git st
+: 1604589609:0;git as "vim-abolish as submodule"
+: 1604589617:0;git st
+: 1604589624:0;git as
