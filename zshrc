@@ -32,3 +32,11 @@ alias dots='git -C ~/.dotfiles as; git -C ~/.dotfiles ci "update"; git -C ~/.dot
 
 alias va='source venv/bin/activate'
 alias rra='cd ~/Desktop/ringingroom; source rrenv/bin/activate; open app/__init__.py'
+
+hnew() {
+    cd ~/lelandpaul.com
+    hugo new posts/"$1".md
+    mkdir content/posts/"$1"
+    mv content/posts/"$1".md content/posts/"$1"/index.md
+    open content/posts/"$1"/index.md
+}

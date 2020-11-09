@@ -26,3 +26,9 @@ Vim tips to try:
 - tpope/vim-abolish!
 - g<C-]> for jumping to tag, <C-t> for jumping back (or just <c-]> but that seems to break)
     - or use ][t from unimpaired to cycle through list (once you've triggered it)
+
+
+Plugins to check out:
+- https://github.com/junegunn/goyo.vim
+- https://github.com/wellle/targets.vim
+- https://github.com/easymotion/vim-easymotion
