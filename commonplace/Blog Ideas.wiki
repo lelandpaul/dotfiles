@@ -2,8 +2,7 @@
 
     1. Tower models
     2. The user interface
-    3. Load balancing
-    4. The future
+    3. The future
 
 = Tech =
 

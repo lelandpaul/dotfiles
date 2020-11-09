@@ -1,7 +1,6 @@
 set nocompatible
-let mapleader=","
-let maplocalleader = ","
-noremap \ ,
+let mapleader="\<space>"
+let maplocalleader = "\<space>"
 filetype off
 
 " Set up Vundle
@@ -156,7 +155,7 @@ set autoread
 " Folding
 set foldmethod=indent
 set foldlevel=99
-nnoremap <space> za
+nnoremap <leader>f za
 
 
 

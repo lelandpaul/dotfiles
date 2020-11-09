@@ -4604,3 +4604,100 @@ git push -u origin main
 : 1604592486:0;ls
 : 1604592508:0;git as
 : 1604592510:0;dots
+: 1604624216:0;ssh ringing
+: 1604624219:0;ssh ringingroom.com
+: 1604624370:0;ssh rr1.ringingroom.com
+: 1604624391:0;ssh rr2.ringingroom.com
+: 1604624493:0;ssh ringingroom.com
+: 1604624843:0;ssh rr1.ringingroom.com
+: 1604624845:0;ssh rr2.ringingroom.com
+: 1604625191:0;rra
+: 1604625268:0;flask run
+: 1604625326:0;git as
+: 1604625369:0;flask run
+: 1604625424:0;git as
+: 1604625431:0;git ci "temporarily disable additional sizes globally"
+: 1604625436:0;git push origin feature-half-muffled 
+: 1604625453:0;git pull origin feature-half-muffled 
+: 1604625478:0;git his
+: 1604625480:0;git hist
+: 1604625512:0;git as
+: 1604625517:0;git ci "revert bad change to about"
+: 1604625521:0;git push origin feature-
+: 1604625524:0;git push origin feature-half-muffled 
+: 1604625563:0;git co trunk
+: 1604625568:0;git pull origin trunk
+: 1604625596:0;git co -b release-20.45
+: 1604625600:0;vim .env
+: 1604625615:0;git as
+: 1604625619:0;git ci "update version number"
+: 1604625624:0;git push origin release-20.45
+: 1604625923:0;ssh ringingroom.com
+: 1604626343:0;ssh dev.ringingroom.com
+: 1604626560:0;ssh ringingroom.com
+: 1604627339:0;ssh sliggo.ringingroom.com
+: 1604664820:0;ssh ringingroom.com
+: 1604692791:0;ssh na.ringingroom.com
+: 1604695419:0;ssh ringingroom.com
+: 1604711494:0;rra
+: 1604711500:0;git branches
+: 1604711508:0;git co feature-links-for-kemp 
+: 1604711513:0;git merge origin trunk
+: 1604711549:0;git co trunk
+: 1604711554:0;git merge feature-links-for-kemp 
+: 1604711558:0;git push origin trunk
+: 1604711584:0;git co release-20.45
+: 1604711630:0;git merge trunk
+: 1604711637:0;git push origin release-20.45
+: 1604711644:0;git co trunk
+: 1604711647:0;git push origin trunk
+: 1604711710:0;ssh ringingroom.com
+: 1604711941:0;ssh sliggo.ringingroom.com
+: 1604755325:0;ssh ringingroom.com
+: 1604773528:0;python
+: 1604773541:0;bp
+: 1604773546:0;bpython
+: 1604773559:0;python
+: 1604798955:0;hnew
+: 1604799012:0;vim .zshrc
+: 1604799165:0;hugo new --help
+: 1604799290:0;source .zshrc
+: 1604799297:0;hnew test
+: 1604799314:0;ls content/posts
+: 1604799318:0;rm content/posts/test
+: 1604799324:0;vim ~/.zshrc
+: 1604799334:0;hnew test
+: 1604799341:0;ls content/posts
+: 1604799349:0;rm content/posts/test
+: 1604799355:0;source ~/.zshrc
+: 1604799357:0;hnew test
+: 1604799366:0;ls content/posts
+: 1604799374:0;rm -r content/posts
+: 1604799376:0;ls
+: 1604799378:0;ls content
+: 1604799390:0;git co content/posts
+: 1604799393:0;ls content
+: 1604799395:0;ls content/posts
+: 1604799407:0;hnew ringing-room-under-the-hood-3
+: 1604806002:0;hugo server
+: 1604806255:0;git st
+: 1604806258:0;git as
+: 1604806277:0;git ci "rruh-3 draft"
+: 1604842463:0;hugo server
+: 1604843646:0;git as
+: 1604843650:0;git reset
+: 1604843652:0;git add themes
+: 1604843662:0;git ci "minor tweak to bottom links"
+: 1604843665:0;git as
+: 1604843670:0;git ci "edits on rruh3"
+: 1604843686:0;cp content/posts/ringing-room-under-the-hood-3/index.md ~/Desktop/rruth3.md
+: 1604845895:0;ssh benfield.ringingroom.com
+: 1604845977:0;ssh ringingroom.com
+: 1604847245:0;python
+: 1604847688:0;ssh ringingroom.com
+: 1604858641:0;git as
+: 1604858652:0;git ci "last edits on rruth3"
+: 1604858661:0;hugo server
+: 1604858690:0;git push
+: 1604858758:0;ssh ringingroom.com
+: 1604941248:0;dots
