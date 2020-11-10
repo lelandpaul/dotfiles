@@ -4863,3 +4863,52 @@ git push -u origin main
 : 1605040098:0;python search.py > output.txt
 : 1605040238:0;grep "FOLLOWING PATH" *
 : 1605040306:0;python -i search.py
+: 1605042136:0;rm output.txt
+: 1605042137:0;python -i search.py
+: 1605042161:0;python search.py > output.txt
+: 1605042190:0;python search.py
+: 1605042215:0;python -i search.py
+: 1605042781:0;open test.png.png
+: 1605042787:0;rm *.png
+: 1605042796:0;open test.png
+: 1605042827:0;python search.py > output.txt
+: 1605042828:0;rm output.txt
+: 1605042830:0;python search.py > output.txt
+: 1605042899:0;rm output.txt
+: 1605042901:0;python search.py > output.txt
+: 1605043025:0;rm output.txt; python search.py > output.txt
+: 1605043139:0;python -i search.py
+: 1605043147:0;rm test.png
+: 1605043153:0;open test.png
+: 1605043296:0;python -i search.py
+: 1605043434:0;ls
+: 1605043437:0;rm test.png
+: 1605043437:0;git st
+: 1605043441:0;rm output.txt
+: 1605043442:0;git st
+: 1605043445:0;git as
+: 1605043458:0;git ci "added santiy check to not duplicate edges"
+: 1605043464:0;ls
+: 1605043473:0;mkdir graph_engine
+: 1605043486:0;mv graph.py finder.py rules.py graph_engine
+: 1605043488:0;ls graph_engine
+: 1605043489:0;ls
+: 1605043492:0;cat justfile
+: 1605043494:0;rm justfile
+: 1605043495:0;ls
+: 1605043498:0;j
+: 1605043499:0;just
+: 1605043529:0;python search.py
+: 1605043544:0;git as
+: 1605043550:0;git ci "re-organize"
+: 1605043987:0;git st
+: 1605044000:0;git submodule https://github.com/dabeaz/ply 'ply'
+: 1605044017:0;gigit submodule add https://github.com/dabeaz/ply ply
+: 1605044021:0;git submodule add https://github.com/dabeaz/ply ply
+: 1605044031:0;ls ply
+: 1605044178:0;python parser.py
+: 1605044204:0;ls ply
+: 1605044214:0;rm -r ply
+: 1605044217:0;python
+: 1605044227:0;pip install ply
+: 1605044240:0;python parser.py
