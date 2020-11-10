@@ -4715,3 +4715,13 @@ git push -u origin main
 : 1605020906:0;vim ~/.zshrc
 : 1605020954:0;python -m asyncio
 : 1605023688:0;dots
+: 1605023725:0;mv .dotfiles/commonplace .commonplace
+: 1605023746:0;mv .dotfiles/commonplace ~/
+: 1605023747:0;ls
+: 1605023758:0;ls -la
+: 1605023760:0;ls .commonplace
+: 1605023768:0;rm .commonplace
+: 1605023775:0;mv commonplace .commonplace
+: 1605023778:0;ls .commonplace
+: 1605023789:0;vim .dotfiles/install.conf.yaml
+: 1605023835:0;dots
