@@ -26,6 +26,11 @@ fi
 # Better vi mode
 export KEYTIMEOUT=1
 
+# Use the correct python by default
+
+alias python='python3'
+alias pip='pip3'
+
 # Various aliases
 
 alias dots='git -C ~/.dotfiles as; git -C ~/.dotfiles ci "update"; git -C ~/.dotfiles push;'
