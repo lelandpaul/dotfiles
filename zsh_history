@@ -4725,3 +4725,93 @@ git push -u origin main
 : 1605023778:0;ls .commonplace
 : 1605023789:0;vim .dotfiles/install.conf.yaml
 : 1605023835:0;dots
+: 1605026976:0;cd .commonplace
+: 1605026989:0;git init
+: 1605026991:0;git as
+: 1605026999:0;git ci "initial commit"
+: 1605027587:0;ssh ringingroom.com
+: 1605027720:0;vim .zpreztorc
+: 1605027825:0;man ls
+: 1605027860:0;colormapids
+: 1605027862:0;colors
+: 1605028154:0;vim .zlogin
+: 1605028183:0;vim .zcompdump
+: 1605028266:0;dircolors
+: 1605028269:0;gdircolors
+: 1605028294:0;echo "$LS_COLORS"
+: 1605028419:0;l
+: 1605028420:0;ls
+: 1605028421:0;l
+: 1605028425:0;ls
+: 1605028438:0;ls .dotfiles
+: 1605028624:0;cd ~/Desktop/ringingroom
+: 1605028626:0;ls
+: 1605028634:0;vim ringingroom.py
+: 1605028638:0;ls
+: 1605028642:0;vim ringingroom.py
+: 1605028693:0;cd ~
+: 1605028719:0;cd .dotfiles
+: 1605028723:0;mkdir scripts
+: 1605028723:0;ls
+: 1605028728:0;cd scripts
+: 1605028729:0;ls
+: 1605028744:0;vim save_wiki.sh
+: 1605028881:0;chmod +x save_wiki.sh
+: 1605028884:0;./save_wiki.sh
+: 1605028928:0;ls
+: 1605028930:0;cd ..
+: 1605028932:0;ls
+: 1605028937:0;vim .install.conf.yaml.un\~
+: 1605028943:0;vim install.conf.yaml
+: 1605028966:0;./install
+: 1605028972:0;cd ..
+: 1605028980:0;.dotfiles/install
+: 1605029068:0;crontab -e
+: 1605029086:0;vim .scripts/save_wiki.sh
+: 1605029103:0;crontab -e
+: 1605029394:0;ls .scripts
+: 1605029404:0;man ls
+: 1605029427:0;ls -H .scripts
+: 1605029437:0;vim .zshrc
+: 1605029467:0;source .zshrc
+: 1605029469:0;ls .scripts
+: 1605029517:0;crontab -l
+: 1605029553:0;crontab -e
+: 1605029572:0;crontab -l
+: 1605037053:0;cd ~/Desktop/graphlang
+: 1605037054:0;ls
+: 1605037058:0;open search.py
+: 1605037063:0;rm qsearch*
+: 1605037064:0;ls
+: 1605037070:0;git st
+: 1605037072:0;git as
+: 1605037076:0;git ci "delete useless old stuff"
+: 1605037416:0;python search.py
+: 1605037420:0;va
+: 1605037425:0;python search.py
+: 1605037430:0;ls
+: 1605037436:0;pip install pydot
+: 1605037447:0;python -m pip install --upgrade pip
+: 1605037454:0;python search.py
+: 1605037475:0;python -i search.py
+: 1605037507:0;open test.png
+: 1605037510:0;ls
+: 1605037514:0;ls ~
+: 1605037523:0;ls
+: 1605037528:0;mv test.png.png test.png
+: 1605037530:0;open test.png
+: 1605038012:0;python search.py
+: 1605038025:0;ls
+: 1605038154:0;mail
+: 1605038191:0;vim ~/.zshrc
+: 1605038199:0;crontab -e
+: 1605038295:0;cd .vim
+: 1605038296:0;ls
+: 1605038299:0;cd ~
+: 1605038300:0;cd .vim
+: 1605038302:0;ls
+: 1605038310:0;cd ~/.dotfiles
+: 1605038363:0;python search.py
+: 1605038376:0;ls
+: 1605038386:0;ls /
+: 1605038389:0;ls ~
