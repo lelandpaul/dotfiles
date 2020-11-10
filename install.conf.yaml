@@ -20,6 +20,7 @@
     ~/.zshenv: zshenv
     ~/.zlogin: zlogin
     ~/.zlogout: zlogout
+    ~/.scripts: scripts
 
 - shell:
   - git submodule sync --recursive

@@ -31,7 +31,12 @@ export KEYTIMEOUT=1
 alias python='python3'
 alias pip='pip3'
 
+# follow symbolic links with ls
+
+alias ls='ls -H'
+
 # Various aliases
+
 
 alias dots='git -C ~/.dotfiles as; git -C ~/.dotfiles ci "update"; git -C ~/.dotfiles push;'
 

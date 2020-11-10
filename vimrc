@@ -23,6 +23,9 @@ set guifont=Menlo:h14
 " (Un)Commenting
 Plugin 'tpope/vim-commentary'
 
+" Various file commands
+Plugin 'tpope/vim-eunuch'
+
 " Cutlass / yoink / etc
 Plugin 'svermeulen/vim-cutlass'
 nnoremap m d
@@ -102,6 +105,7 @@ let g:ctrlp_abbrev = {
         \}
         \]
     \}
+let g:ctrlp_working_path_mode = 'rc'
 
 " END PLUGINS
 call vundle#end()
