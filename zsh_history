@@ -4815,3 +4815,51 @@ git push -u origin main
 : 1605038376:0;ls
 : 1605038386:0;ls /
 : 1605038389:0;ls ~
+: 1605038409:0;ls
+: 1605038416:0;mv Finder.py finder.py
+: 1605038419:0;python search.py
+: 1605038423:0;va
+: 1605038430:0;python search.py
+: 1605038474:0;ls
+: 1605038482:0;mv Finder.py finder.py
+: 1605038483:0;ls
+: 1605038493:0;mv Finder.py finder.py
+: 1605038495:0;python search.py
+: 1605038509:0;ls
+: 1605038520:0;mv Finder.py finder.py
+: 1605038523:0;open search.py
+: 1605038526:0;python search.py
+: 1605038593:0;python -i finder.py
+: 1605038636:0;python -i search.py
+: 1605038646:0;mail
+: 1605038677:0;open test.png
+: 1605038694:0;open test2.png.png
+: 1605038717:0;rm test*
+: 1605038718:0;ls
+: 1605038723:0;rm fib.png huh.png 
+: 1605038724:0;ls
+: 1605038742:0;python search.py > output.txt
+: 1605038746:0;mail
+: 1605038815:0;python -i search.py
+: 1605038824:0;open test2.png.png
+: 1605039535:0;python search.py > output.txt
+: 1605039538:0;rm output.txt
+: 1605039540:0;python search.py > output.txt
+: 1605039543:0;va
+: 1605039544:0;python search.py > output.txt
+: 1605039547:0;rm output.txt
+: 1605039548:0;python search.py > output.txt
+: 1605039579:0;rm output.txt
+: 1605039580:0;python search.py > output.txt
+: 1605039598:0;rm output.txt
+: 1605039599:0;python search.py > output.txt
+: 1605039648:0;rm output.txt
+: 1605039649:0;python search.py > output.txt
+: 1605039855:0;rm output.txt
+: 1605039856:0;python search.py > output.txt
+: 1605039884:0;rm output.txt
+: 1605039885:0;python search.py > output.txt
+: 1605040096:0;rm output.txt
+: 1605040098:0;python search.py > output.txt
+: 1605040238:0;grep "FOLLOWING PATH" *
+: 1605040306:0;python -i search.py
