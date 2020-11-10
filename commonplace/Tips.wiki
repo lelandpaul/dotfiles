@@ -32,3 +32,4 @@ Plugins to check out:
 - https://github.com/junegunn/goyo.vim
 - https://github.com/wellle/targets.vim
 - https://github.com/easymotion/vim-easymotion
+- https://github.com/inside/vim-search-pulse

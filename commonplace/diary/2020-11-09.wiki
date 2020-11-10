@@ -1,4 +1,41 @@
-- [ ] Poke at esolang
-- [ ] Go shopping
-- [ ] Sweep
-- [ ] Delete Roger's account (Poshboy)
+- [✓] Go shopping
+- [✓] Sweep
+
+
+
+== Toast interview notes ==
+
+Questions to ask:
+
+- I saw from the website that Toast has an unlimited vacation policy; how much do people normally take?
+- Do people generally keep the same schedule, or is variability ok?
+- What's current policy re: working from home / in person?
+- How do you determine if someone is a poor fit for your company?
+- What is the management structure like?
+
+Comp for this role:
+    - Equity, unlimited PTO
+    - 107k
+
+Process:
+    - 1hr technical (screenshare)
+    - 0.5hr culture add interview
+
+There's always been flexibility about wfh
+
+Teams focus on different areas of restaurant
+    - loosely scrum / agile
+    - 3-6 software engineers on team (1 very senior)
+    - product manager, ux designer, qa engineer
+
+Interviewing w/ Dublin team on Thursday
+    - restaurant domain
+    - writing code in python
+    - edge cases, testing, scalability
+
+1. graph traversal
+2. data structures
+3. concurrency
+4. data modeling
+5. string manipulation
+

@@ -4701,3 +4701,17 @@ git push -u origin main
 : 1604858690:0;git push
 : 1604858758:0;ssh ringingroom.com
 : 1604941248:0;dots
+: 1604949250:0;ssh ringingroom.com
+: 1605016176:0;python
+: 1605020713:0;python -m asyncio
+: 1605020721:0;python --version
+: 1605020732:0;python3 --version
+: 1605020742:0;vim ~/.zshrc
+: 1605020770:0;python --version
+: 1605020777:0;source ~/.zshrc
+: 1605020781:0;python --version
+: 1605020786:0;python -m asyncio
+: 1605020858:0;pip3 install uvloop
+: 1605020906:0;vim ~/.zshrc
+: 1605020954:0;python -m asyncio
+: 1605023688:0;dots
