@@ -78,6 +78,9 @@ Plugin 'tmhedberg/SimpylFold'
 "Emmet
 Plugin 'mattn/emmet-vim'
 
+"Prettier
+Plugin 'prettier/vim-prettier', { 'do': 'yarn install' }
+
 "VimWiki
 Plugin 'vimwiki/vimwiki'
 let g:vimwiki_listsyms = ' ○◐●✓'

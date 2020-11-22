@@ -4912,3 +4912,486 @@ git push -u origin main
 : 1605044217:0;python
 : 1605044227:0;pip install ply
 : 1605044240:0;python parser.py
+: 1605054618:0;deactivate
+: 1605054621:0;cd ~/Desktop
+: 1605054629:0;mkdir methodcards
+: 1605054631:0;cd methodcards
+: 1605054637:0;git init
+: 1605054644:0;mkdir app
+: 1605054687:0;touch config.py
+: 1605054694:0;touch methodcards.py
+: 1605054699:0;touch README.md
+: 1605054705:0;touch app/__init__.py
+: 1605054712:0;touch app/routes.py
+: 1605054847:0;open svelte/src/App.svelte
+: 1605054856:0;mvim svelte/src/App.svelte
+: 1605054907:0;python -m venv venv
+: 1605054910:0;va
+: 1605054925:0;git as
+: 1605054934:0;git ci "laying out project structure"
+: 1605054960:0;pip install flask flask-sqlalchemy cccbr_methods
+: 1605054972:0;pip install --upgrade pip
+: 1605054982:0;pip freeze -r > requirements.txt
+: 1605054989:0;rm requirements.txt
+: 1605054994:0;pip freeze > requirements.txt
+: 1605054997:0;git as
+: 1605055002:0;git ci "requirements"
+: 1605055042:0;mail
+: 1605055077:0;crontab -e
+: 1605055087:0;cd svelte
+: 1605055094:0;npm install
+: 1605055109:0;npm run dev
+: 1605056137:0;flask run
+: 1605056198:0;git st
+: 1605056200:0;git as
+: 1605056205:0;git ci "scaffolding"
+: 1605056207:0;flask run
+: 1605056212:0;pip install dotenv
+: 1605056240:0;pip install wheel
+: 1605056243:0;pip install dotenv
+: 1605056299:0;pip install python-dotenv
+: 1605056305:0;pip freeze >requirements.txt
+: 1605056307:0;rm requirements.txt
+: 1605056309:0;pip freeze > req
+: 1605056313:0;rm req
+: 1605056317:0;pip freeze >requirements.txt
+: 1605056320:0;flask run
+: 1605056323:0;git as
+: 1605056327:0;git ci "dotenv"
+: 1605056329:0;flask run
+: 1605056331:0;npm run dev
+: 1605056422:0;rm svelte/src/App.svelte
+: 1605056435:0;git st
+: 1605056436:0;git as
+: 1605056448:0;git ci "better name"
+: 1605056678:0;npm run dev
+: 1605056683:0;git ci "better name"
+: 1605056685:0;flask run
+: 1605056687:0;npm run dev
+: 1605059058:0;flask run
+: 1605067281:0;git as
+: 1605067294:0;git ci "basic drawing functions"
+: 1605067297:0;flask run
+: 1605068092:0;git as
+: 1605068100:0;git ci "constrain to path"
+: 1605068295:0;python
+: 1605068407:0;update-cccbr-methods
+: 1605068449:0;python
+: 1605069623:0;flask run
+: 1605071386:0;git as
+: 1605071399:0;git ci "allow for practicing different place bells"
+: 1605097427:0;flask run
+: 1605097441:0;npm run dev
+: 1605102529:0;flask run
+: 1605106542:0;git as
+: 1605106551:0;git ci "rework to use svg"
+: 1605107115:0;ssh ringingroom.com
+: 1605107989:0;ls svelte/src
+: 1605108025:0;mv svelte/src/MethodCards.svelte svelte/src/MethodDisplay.svelte
+: 1605108030:0;ls
+: 1605108035:0;open methodcards.py
+: 1605108049:0;touch svelte/src/MethodCards.svelte
+: 1605108779:0;flask run
+: 1605109853:0;git as
+: 1605109862:0;git ci "restructure to have parent component"
+: 1605109868:0;flask run
+: 1605109879:0;npm run dev
+: 1605110173:0;flask run
+: 1605110424:0;cd Documents/Code/cccbr_methods
+: 1605110425:0;ls
+: 1605110442:0;open cccbr_methods/__init__.py
+: 1605110688:0;python
+: 1605110704:0;va
+: 1605110706:0;python
+: 1605110729:0;pip install -r requirements.txt
+: 1605110740:0;vim requirements.txt
+: 1605110744:0;pip install -r requirements.txt
+: 1605110813:0;python
+: 1605110884:0;git add requirements.txt
+: 1605110886:0;git st
+: 1605110893:0;git ci "updated requirements"
+: 1605110897:0;git add README.md
+: 1605110908:0;git ci "update_database() rather than update()"
+: 1605110913:0;git as
+: 1605110925:0;git ci "don't check for thread-safeness"
+: 1605111033:0;update-cccbr-methods
+: 1605111041:0;python
+: 1605111141:0;ls
+: 1605111146:0;ls build
+: 1605111149:0;ls cccbr_methods
+: 1605111153:0;ls cccbr_methods/data
+: 1605111157:0;ls cccbr_methods/update.py
+: 1605111174:0;grep -r 'stage' *.py
+: 1605111178:0;grep -r 'stage' *
+: 1605111213:0;grep -r 'stage' app/*
+: 1605111216:0;ls
+: 1605111281:0;python
+: 1605111529:0;git st
+: 1605111543:0;git add *
+: 1605111546:0;git add .
+: 1605111548:0;git st
+: 1605111556:0;git ci "better updating"
+: 1605111568:0;python -m pip install --user --upgrade setuptools wheel
+: 1605111577:0;python -m pip install --user --upgrade twine
+: 1605111592:0;python setup.py sdist bdist_wheel
+: 1605111596:0;ls dist
+: 1605111603:0;ls
+: 1605111605:0;vim setup.py
+: 1605111628:0;git add setup.py
+: 1605111631:0;git ci "version bump"
+: 1605111636:0;python setup.py sdist bdist_wheel
+: 1605111672:0;python -m twine upload --repository-url https://test.pypi.org/legacy/ dist/*
+: 1605111789:0;cd Desk
+: 1605111797:0;cd ~/Desktop
+: 1605111805:0;mkdir test
+: 1605111807:0;cd test
+: 1605111811:0;python -m venv venv
+: 1605111814:0;va
+: 1605111845:0;pip install --index-url https://test.pypi.org/simple/ cccbr_methods
+: 1605111862:0;python
+: 1605111887:0;pip install --index-url https://test.pypi.org/simple/ --no-deps cccbr_methods
+: 1605111890:0;python
+: 1605111910:0;vim setup.py
+: 1605111923:0;vim requirements.txt
+: 1605111932:0;deactivate
+: 1605111935:0;cd ..
+: 1605111937:0;rm -r test
+: 1605111946:0;twine
+: 1605111957:0;git push
+: 1605111968:0;python -m twine upload dist/*
+: 1605111995:0;ls dist
+: 1605112010:0;rm -r dist
+: 1605112016:0;python setup.py sdist bdist_wheel
+: 1605112023:0;python -m twine upload dist/*
+: 1605112045:0;pip upgrade cccbr_methods
+: 1605112050:0;pip update cccbr_methods
+: 1605112056:0;pip install --upgrade cccbr_methods
+: 1605112104:0;pip install cccbr_methods
+: 1605112128:0;pip install --force-reinstall cccbr_methods
+: 1605112165:0;flask run
+: 1605112380:0;rm requirements.txt
+: 1605112385:0;pip freeze > requirements.txt
+: 1605112386:0;git st
+: 1605112400:0;git as "refactor to allow multiple methods"
+: 1605112405:0;git as
+: 1605112412:0;git ci "refactor to allow multiple methods"
+: 1605112417:0;flask run
+: 1605119720:0;git as
+: 1605119740:0;git ci "advance card async'ly when complete"
+: 1605119742:0;flask run
+: 1605121522:0;git add app
+: 1605121529:0;git ci "decks & cards"
+: 1605121767:0;flask run
+: 1605123015:0;git st
+: 1605123019:0;git as
+: 1605123049:0;git ci "allow different stages"
+: 1605123062:0;flask run
+: 1605124733:0;git st
+: 1605124745:0;mkdir app/api
+: 1605124853:0;rmdir app/api
+: 1605125182:0;flask run
+: 1605130934:0;pip install flask_sqlalchemy
+: 1605131056:0;pip install flask-migrate
+: 1605131573:0;cd lelandpaul.com
+: 1605131583:0;open .
+: 1605132461:0;git st
+: 1605132482:0;flask db migrate -m "card table"
+: 1605132492:0;flask db init
+: 1605132527:0;flask db migrate init
+: 1605132540:0;ls
+: 1605132558:0;flask db init
+: 1605132618:0;flask shell
+: 1605132622:0;flask db init
+: 1605132672:0;vim migrations/alembic.ini
+: 1605132691:0;flask db migrate -m "cards"
+: 1605132697:0;flask db upgrade
+: 1605132716:0;flask db ls
+: 1605132717:0;ls
+: 1605132720:0;ls migrations/versions
+: 1605132741:0;flask db migrate -m "initial migration"
+: 1605132763:0;flask db upgrade
+: 1605133298:0;flask db migrate -m "basic users"
+: 1605133484:0;flask
+: 1605133486:0;flask run
+: 1605133505:0;pip install flask_login
+: 1605133515:0;rm requirements.txt
+: 1605133527:0;pip freeze > requirements.txt
+: 1605133541:0;flask shell
+: 1605133608:0;flask migrate -m "basic users"
+: 1605133616:0;flask db migrate -m "basic users"
+: 1605133697:0;sqlite3 app.db
+: 1605133850:0;flask db migrate -m "basic users"
+: 1605133853:0;flask db upgrade
+: 1605133865:0;rm app.db
+: 1605133897:0;vim migrations/versions/c2d8f1334d20_initial_migration.py
+: 1605133909:0;flask db upgrade
+: 1605133928:0;rm migrations/versions/35a55dcde3cf_basic_users.py
+: 1605133969:0;flask db migrate -m "basic users"
+: 1605133973:0;flask db upgrade
+: 1605133978:0;rm app.db
+: 1605133980:0;flask db upgrade
+: 1605133984:0;rm app.db
+: 1605133989:0;rm -r migrations
+: 1605134022:0;flask db init
+: 1605134034:0;flask db migrate -m "init"
+: 1605134036:0;flask db upgrade
+: 1605195310:0;ssh ringingroom.com
+: 1605202789:0;cd Desktop/methodcards/
+: 1605202790:0;ls
+: 1605202792:0;open methodcards.py
+: 1605202796:0;va
+: 1605202802:0;cd svelte
+: 1605202804:0;npm run dev
+: 1605202808:0;flask run
+: 1605202812:0;npm run dev
+: 1605202942:0;flask run
+: 1605203081:0;flask shell
+: 1605203096:0;cd ~/Desktop/r
+: 1605203099:0;cd ~/Desktop/ringingroom
+: 1605203103:0;env
+: 1605203111:0;vim.env
+: 1605203115:0;vim .flaskenv
+: 1605203142:0;echo "FLASK_APP=methodcards.py" > .flaskenv
+: 1605203144:0;flask run
+: 1605203147:0;flask shell
+: 1605203339:0;open methodcards.py
+: 1605203345:0;flask shell
+: 1605204253:0;flask run
+: 1605204561:0;flask shell
+: 1605204707:0;flask run
+: 1605205124:0;flask shell
+: 1605205133:0;open methodcards.py
+: 1605205137:0;flask run
+: 1605205450:0;git st
+: 1605205459:0;git as
+: 1605205467:0;git ci "basic database; track users & cards"
+: 1605205474:0;flask shell
+: 1605205747:0;flask run
+: 1605205885:0;git as
+: 1605205888:0;git ci "track mistakes"
+: 1605211507:0;ls app
+: 1605211510:0;rm app/decks.py
+: 1605212645:0;git st
+: 1605212652:0;git as
+: 1605212656:0;git ci "starting scheduler"
+: 1605212667:0;pip install flask-mongoengine
+: 1605212896:0;open ~/bin
+: 1605212898:0;open ~/.bin
+: 1605212906:0;open /usr/bin
+: 1605212948:0;cp ~/Downloads/mongodb-macos-x86_64-4.4.1/bin/m* /usr/bin/
+: 1605212962:0;sudo cp ~/Downloads/mongodb-macos-x86_64-4.4.1/bin/m* /usr/bin/
+: 1605212999:0;brew tap mongodb/brew
+: 1605213051:0;brew install mongodb-community
+: 1605215870:0;flask run
+: 1605215883:0;flask db migrate -m "events"
+: 1605215961:0;flask db upgrade
+: 1605215967:0;rm app.db
+: 1605215970:0;rm -r migrations
+: 1605215973:0;flask db init
+: 1605215980:0;flask db migrate -m "reinit"
+: 1605215983:0;flask db upgrade
+: 1605215986:0;flask run
+: 1605216276:0;flask shell
+: 1605216308:0;flask run
+: 1605216343:0;flask shell
+: 1605216522:0;u
+: 1605216524:0;flask shell
+: 1605216532:0;flask run
+: 1605216959:0;flask shell
+: 1605222447:0;ssh ringingroom.com
+: 1605222662:0;vim .gitconfig
+: 1605222957:0;flask run
+: 1605223314:0;flask shell
+: 1605223386:0;flask run
+: 1605223405:0;flask shell
+: 1605223429:0;flask run
+: 1605223498:0;flask shell
+: 1605223506:0;flask run
+: 1605228380:0;ssh ringingroom.com
+: 1605228383:0;ssh rr1.ringingroom.com
+: 1605228386:0;ssh rr2.ringingroom.com
+: 1605228390:0;ssh rr3.ringingroom.com
+: 1605228443:0;ssh ringingroom.com
+: 1605228639:0;flask shell
+: 1605228665:0;flask run
+: 1605228780:0;flask shell
+: 1605228789:0;flask run
+: 1605229396:0;flask shell
+: 1605229407:0;flask run
+: 1605229645:0;flask shell
+: 1605229659:0;flask run
+: 1605229677:0;flask shell
+: 1605229737:0;flask run
+: 1605229833:0;flask shell
+: 1605229848:0;flask run
+: 1605229907:0;npm run dev
+: 1605229914:0;flask shell
+: 1605229947:0;flask run
+: 1605229993:0;flask shell
+: 1605230051:0;flask run
+: 1605230679:0;flask shell
+: 1605230696:0;flask run
+: 1605231810:0;git st
+: 1605231816:0;git as
+: 1605231826:0;git ci "better ajax; tracking events; scheduling"
+: 1605297497:0;ls
+: 1605297499:0;git st
+: 1605298627:0;flask run
+: 1605299307:0;rra
+: 1605300661:0;flask run
+: 1605301323:0;flask shell
+: 1605301332:0;flask run
+: 1605302275:0;flask shell
+: 1605302285:0;flask run
+: 1605302449:0;flask shell
+: 1605302467:0;flask run
+: 1605303242:0;npm run dev
+: 1605303294:0;grep "cards_remaining" svelte/src
+: 1605303298:0;grep "cards_remaining" svelte/src/*
+: 1605303309:0;grep "received state" svelte/src/*
+: 1605303320:0;flask run
+: 1605303666:0;flask shell
+: 1605303712:0;flask run
+: 1605305494:0;flask db upgrade
+: 1605305500:0;flask db migrate -m "bumper mode"
+: 1605305502:0;flask db upgrade
+: 1605305709:0;vim migrations/versions/1690c4f115c2_bumper_mode.py
+: 1605305747:0;flask db upgrade
+: 1605305764:0;flask run
+: 1605306298:0;flask shell
+: 1605306319:0;flask run
+: 1605306322:0;flask shell
+: 1605306335:0;flask run
+: 1605306416:0;flask shell
+: 1605306432:0;flask run
+: 1605306467:0;flask shell
+: 1605306480:0;flask run
+: 1605310312:0;flask shell
+: 1605310327:0;flask run
+: 1605316060:0;flask shell
+: 1605316078:0;flask run
+: 1605319478:0;flask shell
+: 1605319564:0;flask run
+: 1605319663:0;flask shell
+: 1605319749:0;flask run
+: 1605320988:0;flask shell
+: 1605320999:0;npm run dev
+: 1605321004:0;flask shell
+: 1605321044:0;flask run
+: 1605323136:0;flask shell
+: 1605323149:0;flask run
+: 1605325942:0;git as
+: 1605325949:0;git ci "use bumper mode"
+: 1605362929:0;flask run
+: 1605365150:0;git as
+: 1605365161:0;git ci "various minor look+feel improvements"
+: 1605383427:0;ssh ringingroom.com
+: 1605383630:0;ssh na.ringingroom.com
+: 1605383635:0;ssh sg.ringingroom.com
+: 1605384880:0;cd lelandpaul.com
+: 1605384883:0;ls
+: 1605384888:0;ls themes/paperesque
+: 1605384898:0;ls themes/paperesque/layouts/taxonomy/taxonomy.html
+: 1605384908:0;vim themes/paperesque/layouts/taxonomy/taxonomy.html
+: 1605385323:0;vim config.toml
+: 1605386007:0;ls
+: 1605386011:0;ls layouts
+: 1605386027:0;ls layouts/shortcodes
+: 1605386034:0;vim layouts/shortcodes/smallskip.html
+: 1605387480:0;flask run
+: 1605388516:0;npm install luxon
+: 1605388522:0;flask run
+: 1605388528:0;npm run dev
+: 1605388569:0;ls
+: 1605388572:0;npm install luxon
+: 1605388581:0;npm dev run
+: 1605388583:0;npm run dev
+: 1605388832:0;npm install dayjs
+: 1605388836:0;npm run dev
+: 1605389621:0;ls src
+: 1605394064:0;git as
+: 1605394067:0;git ci "display all cards"
+: 1605394070:0;flask run
+: 1605395191:0;flask shell
+: 1605396444:0;flask run
+: 1605396502:0;cd lelandpaul.com
+: 1605396504:0;ls public
+: 1605397446:0;flask run
+: 1605403809:0;npm install svelte-autocomplete
+: 1605403818:0;npm run dev
+: 1605404198:0;npm -i -D simple-svelte-autocomplete
+: 1605404208:0;npm i -D simple-svelte-autocomplete
+: 1605404214:0;npm run dev
+: 1605404590:0;flask run
+: 1605404600:0;httpie
+: 1605404766:0;flask run
+: 1605405796:0;npm run dev
+: 1605406839:0;flask run
+: 1605409477:0;git as
+: 1605409500:0;git ci "adding & removing methods"
+: 1605449044:0;ssh ringingroom.com
+: 1605450001:0;cd Desktop/methodcards
+: 1605450001:0;ls
+: 1605450005:0;open methodcards.py
+: 1605450009:0;va
+: 1605450011:0;flask run
+: 1605450018:0;cd svelte
+: 1605450021:0;npm run dev
+: 1605450841:0;flask run
+: 1605451615:0;grep "\$mistakes" svelte/src/*
+: 1605451669:0;flask run
+: 1605455076:0;git as
+: 1605455084:0;git ci "better handling of faults & bumpers"
+: 1605458601:0;cd Desktop/NLP
+: 1605458601:0;ls
+: 1605458616:0;cp -r week1pres week10pres
+: 1605458617:0;ls
+: 1605458621:0;cd week10pres
+: 1605458622:0;ls
+: 1605458625:0;open project.tex
+: 1605461092:0;flask run
+: 1605469430:0;python
+: 1605469451:0;flask run
+: 1605469518:0;git as
+: 1605469521:0;git ci "better date handling"
+: 1605469524:0;flask run
+: 1605469947:0;pip install httpie
+: 1605470036:0;http POST https://ringingroom.com/api/tokens
+: 1605470214:0;echo -n 'test@test.com:testy' | openssl base64
+: 1605470271:0;http POST https://ringingroom.com/api/tokens "Authorization: Basic dGVzdEB0ZXN0LmNvbTp0ZXN0eQ=="
+: 1605470284:0;echo -n 'test@test.com:test' | openssl base64
+: 1605470314:0;http POST https://ringingroom.com/api/tokens "Authorization: Basic dGVzdEB0ZXN0LmNvbTp0ZXN0"
+: 1605470665:0;pip install requests
+: 1605470702:0;python
+: 1605540986:0;cd Desktop/NLP/week10pres
+: 1605540987:0;ls
+: 1605540990:0;open project.tex
+: 1605541139:0;open .
+: 1605541340:0;open project.pdf
+: 1605550047:0;open project.tex
+: 1605550118:0;ls
+: 1605550128:0;cp project.pdf chapter_9.pdf
+: 1605550154:0;open .
+: 1605552803:0;ssh ringingroom.com
+: 1605552935:0;cd lelandpaul.com
+: 1605552946:0;open content/posts/ringing-room-under-the-hood-2/index.md
+: 1605552973:0;open content/posts/ringing-room-under-the-hood-1/index.md
+: 1605553040:0;hugo server
+: 1605553074:0;git as
+: 1605553104:0;git ci "fixing a broken link"
+: 1605553108:0;git push
+: 1605553213:0;open ~
+: 1605562679:0;ssh ringingroom.com
+: 1605563250:0;cd lelandpaul.com
+: 1605563253:0;ls
+: 1605563260:0;open content/posts/ringing-room-under-the-hood-1
+: 1605563265:0;open content/posts/ringing-room-under-the-hood-1/index.md
+: 1605563332:0;git as
+: 1605563339:0;git ci "changed some link names for consistency"
+: 1605563498:0;hugo server
+: 1605563542:0;git as
+: 1605563557:0;git ci erver
+: 1605563563:0;hugo server
+: 1605563609:0;git st
+: 1605563610:0;git push
+: 1605570786:0;ssh na.ringingroom.com
