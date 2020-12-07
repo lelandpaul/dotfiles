@@ -1,9 +1,9 @@
 set nocompatible
-let mapleader="\<space>"
+let mapleader="\<space>" 
 let maplocalleader = "\<space>"
 filetype off
 
-" Set up Vundle
+" Set up Vundle for package-management
 set rtp+=~/.vim/bundle/Vundle.vim
 call vundle#begin()
 
@@ -56,6 +56,8 @@ Plugin 'leafoftree/vim-svelte-plugin'
 "Git
 Plugin 'airblade/vim-gitgutter'
 Plugin 'tpope/vim-fugitive'
+let g:gitgutter_signs = 0
+nnoremap <leader>gt :GitGutterSignsToggle<CR>
 
 "Repeat
 Plugin 'tpope/vim-repeat'
@@ -80,6 +82,18 @@ Plugin 'mattn/emmet-vim'
 
 "Prettier
 Plugin 'prettier/vim-prettier', { 'do': 'yarn install' }
+
+"Goyo
+Plugin 'junegunn/goyo.vim'
+nnoremap <leader>gy :Goyo<CR>
+
+"Limelight
+Plugin 'junegunn/limelight.vim'
+autocmd! User GoyoEnter Limelight
+autocmd! User GoyoLeave Limelight!
+
+"Targets
+Plugin 'wellle/targets.vim'
 
 "VimWiki
 Plugin 'vimwiki/vimwiki'
