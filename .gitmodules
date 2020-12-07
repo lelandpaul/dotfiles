@@ -76,3 +76,6 @@
 [submodule "vim/bundle/targets.vim"]
     path = vim/bundle/targets.vim
     url = https://github.com/wellle/targets.vim
+[submodule "vim/bundle/vim-prettier"]
+    path = vim/bundle/vim-prettier
+    url = https://github.com/prettier/vim-prettier
