@@ -73,3 +73,6 @@
 [submodule "vim/bundle/limelight.vim"]
     path = vim/bundle/limelight.vim
     url = https://github.com/junegunn/limelight.vim
+[submodule "vim/bundle/targets.vim"]
+    path = vim/bundle/targets.vim
+    url = https://github.com/wellle/targets.vim
