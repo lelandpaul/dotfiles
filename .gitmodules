@@ -64,3 +64,9 @@
 [submodule "vim/bundle/vim-abolish"]
 	path = vim/bundle/vim-abolish
 	url = https://github.com/tpope/vim-abolish
+[submodule "vim/bundles/vim-eunuch"]
+	path = vim/bundles/vim-eunuch
+	url = https://github.com/tpope/vim-eunuch
+[submodule "vim/bundles/goyo.vim"]
+    path = vim/bundles/goyo.vim
+    url = https://github.com/junegunn/goyo.vim
