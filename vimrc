@@ -100,6 +100,9 @@ Plugin 'vimwiki/vimwiki'
 let g:vimwiki_listsyms = ' ○◐●✓'
 let g:vimwiki_list = [{'path': '~/.commonplace/', 'auto_tags': 1, 'auto_diary_index': 1, 'auto_generate_tags': 1}]
 nmap <leader>wa <plug>VimwikiMakeDiaryNote
+nmap gwt :VimwikiTable<CR>jl
+nmap <C-Left> <Plug>VimwikiTableMoveColumnLeft
+nmap <C-Right> <Plug>VimwikiTableMoveColumnRight
 
 "Tagbar
 Plugin 'preservim/tagbar'
