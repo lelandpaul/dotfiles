@@ -41,14 +41,14 @@ nmap p <plug>(YoinkPaste_p)
 nmap P <plug>(YoinkPaste_P)
 
 
-"Python-Mode
-Plugin 'python-mode/python-mode'
-let g:pymode_rope = 1
-let g:pymode_rope_completion = 1
-let g:pymode_rope_completion_bind = '<C-Space>'
-let python_highlight_all=1
-let g:pymode_lint_cwindow = 0
-set completeopt=menuone,noinsert
+""Python-Mode
+"Plugin 'python-mode/python-mode'
+"let g:pymode_rope = 1
+"let g:pymode_rope_completion = 1
+"let g:pymode_rope_completion_bind = '<C-Space>'
+"let python_highlight_all=1
+"let g:pymode_lint_cwindow = 0
+"set completeopt=menuone,noinsert
 
 "Svelte
 Plugin 'leafoftree/vim-svelte-plugin'
