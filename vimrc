@@ -34,14 +34,14 @@ nnoremap mm dd
 nnoremap M D
 nnoremap gm m
 
-"Python-Mode
-Plugin 'python-mode/python-mode'
-let g:pymode_rope = 1
-let g:pymode_rope_completion = 1
-let g:pymode_rope_completion_bind = '<C-Space>'
-let python_highlight_all=1
-let g:pymode_lint_cwindow = 0
-set completeopt=menuone,noinsert
+""Python-Mode
+"Plugin 'python-mode/python-mode'
+"let g:pymode_rope = 1
+"let g:pymode_rope_completion = 1
+"let g:pymode_rope_completion_bind = '<C-Space>'
+"let python_highlight_all=1
+"let g:pymode_lint_cwindow = 0
+"set completeopt=menuone,noinsert
 
 "Svelte
 Plugin 'leafoftree/vim-svelte-plugin'
@@ -94,6 +94,9 @@ let g:vimwiki_listsyms = ' ○◐●✓'
 let g:vimwiki_list = [{'path': '~/.commonplace/', 'auto_tags': 1, 'auto_diary_index': 1, 'auto_generate_tags': 1}]
 nmap <leader>wa <plug>VimwikiMakeDiaryNote
 let g:vimwiki_folding = 'expr'
+nmap gwt :VimwikiTable<CR>jl
+nmap <C-Left> <Plug>VimwikiTableMoveColumnLeft
+nmap <C-Right> <Plug>VimwikiTableMoveColumnRight
 
 "Tagbar
 Plugin 'preservim/tagbar'
