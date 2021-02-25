@@ -33,13 +33,6 @@ xnoremap m d
 nnoremap mm dd
 nnoremap M D
 nnoremap gm m
-Plugin 'svermeulen/vim-yoink'
-let g:yoinkIncludeDeleteOperations=1
-nmap <c-n> <plug>(YoinkPostPasteSwapBack)
-nmap <c-p> <plug>(YoinkPostPasteSwapForward)
-nmap p <plug>(YoinkPaste_p)
-nmap P <plug>(YoinkPaste_P)
-
 
 "Python-Mode
 Plugin 'python-mode/python-mode'
@@ -100,6 +93,7 @@ Plugin 'vimwiki/vimwiki'
 let g:vimwiki_listsyms = ' ○◐●✓'
 let g:vimwiki_list = [{'path': '~/.commonplace/', 'auto_tags': 1, 'auto_diary_index': 1, 'auto_generate_tags': 1}]
 nmap <leader>wa <plug>VimwikiMakeDiaryNote
+let g:vimwiki_folding = 'expr'
 
 "Tagbar
 Plugin 'preservim/tagbar'
