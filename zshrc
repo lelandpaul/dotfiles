@@ -43,6 +43,8 @@ alias dots='git -C ~/.dotfiles as; git -C ~/.dotfiles ci "update"; git -C ~/.dot
 alias va='source venv/bin/activate'
 alias rra='cd ~/Desktop/ringingroom; source rrenv/bin/activate; open app/__init__.py'
 
+alias gw='./gradlew'
+
 hnew() {
     cd ~/lelandpaul.com
     hugo new posts/"$1".md
@@ -50,3 +52,7 @@ hnew() {
     mv content/posts/"$1".md content/posts/"$1"/index.md
     open content/posts/"$1"/index.md
 }
+export VOLTA_HOME="$HOME/.volta"
+export PATH="$VOLTA_HOME/bin:$PATH"
+export PATH="~/Library/Android/sdk/platform-tools:$PATH"
+source /Users/lelandpaul/.dotfiles/bashrc
